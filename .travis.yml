@@ -5,7 +5,6 @@ script: html index.html
 notifications:
   email:
     recipients:
-      - lucy.kladko@gmail.com
-      
+      - lucy.kladko@gmail.com   
       on_success: always
       on_failure: always
