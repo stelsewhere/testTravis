@@ -1,10 +1,14 @@
-language: html
+language: python
 
-script: html index.html
+python:
+- 3.8
+
+script: python test_fruit.py
 
 notifications:
   email:
     recipients:
-      - lucy.kladko@gmail.com   
+      - lucy.kladko@gmail.com
+      
       on_success: always
       on_failure: always
